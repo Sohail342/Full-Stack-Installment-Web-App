@@ -38,7 +38,7 @@ api_secret=<your api_secret>
 Apply migrations
 
 ```bash
-python manage.py migrate
+uv run python manage.py migrate
 
 ```
 
