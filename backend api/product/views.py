@@ -1,5 +1,5 @@
 from rest_framework import generics
-from rest_framework.permissions import IsAuthenticated
+from rest_framework.permissions import IsAuthenticated, AllowAny
 from .models import Category, Product
 from .serializers import CategorySerializer, ProductSerializer
 from rest_framework.pagination import PageNumberPagination

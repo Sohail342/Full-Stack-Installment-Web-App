@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import UserLogin from '@/components/UserLogin.vue';
-import HelloWorld from '@/components/HelloWorld.vue'; 
+import ProductListing from '@/components/ProductListing.vue'; 
 
 // Define the routes
 const routes = [
   { path: '/login', component: UserLogin, name: 'Login' },
-  { path: '/dashboard', component: HelloWorld, name: 'Dashboard' },
+  { path: '/products', component: ProductListing, name: 'Dashboard' },
 ];
 
 // Create the router instance
